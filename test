@@ -9,4 +9,20 @@ $ conda deactivat  退出虚拟环境
 
 P7
 运行tensorboard时，文件不能命名为tensorboard.py,会导致出错。
-在终端运行时，还要注意目录问题，输入正确才行tensorboard --logdir="D:\PythonC\Pythonpro\pythonProject1\.venv\Deepleaning\logs" --host=localhost --port=6007
+在终端运行时，还要注意目录问题，输入正确才行
+tensorboard --logdir="D:\PythonC\Pythonpro\pythonProject1\.venv\Deepleaning\logs" --host=localhost --port=6007
+
+P8
+图像的绝对路径记得要加\\
+image_path='D:\\PythonC\\Pythonpro\\pythonProject1\\.venv\\Deepleaning\\data\\train\\ants_image\\0013035.jpg'
+
+相对路径，在Deepleaning中，直接输入文件名称/图片
+
+P9
+别的笔记：
+https://blog.csdn.net/weixin_44216612/article/details/124203730?spm=1001.2014.3001.5501
+
+transforms
+关注输入和输出的类型
+多关注官方的文档
+
