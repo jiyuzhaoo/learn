@@ -1,14 +1,11 @@
 Yes, it will be used to record the learning process in the future
-$ conda activate pytorch to create a virtual environment
+$ conda activate pytorch 意思是 create a virtual environment
 jupyter notebook
 
-
-
-
-
-
-
-
-
-
 $ conda deactivat  推出虚拟环境
+
+
+
+
+P7
+运行tensorboard时，文件不能命名为tensorboard.py,会导致出错。
